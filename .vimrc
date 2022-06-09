@@ -60,14 +60,14 @@ if &compatible
 endif
 
 " Required:
-set runtimepath+=/Users/watahari/dotfiles/./.vim/repos/github.com/Shougo/dein.vim
+set runtimepath+=/Users/watahari/dev/dotfiles/./.vim/repos/github.com/Shougo/dein.vim
 
 " Required:
-call dein#begin('/Users/watahari/dotfiles/./.vim')
+call dein#begin('/Users/watahari/dev/dotfiles/./.vim')
 
 " Let dein manage dein
 " Required:
-call dein#add('/Users/watahari/dotfiles/./.vim/repos/github.com/Shougo/dein.vim')
+call dein#add('/Users/watahari/dev/dotfiles/./.vim/repos/github.com/Shougo/dein.vim')
 
 " Add or remove your plugins here like this:
 call dein#add('Shougo/neosnippet.vim')

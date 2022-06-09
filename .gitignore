@@ -2,3 +2,4 @@
 .vim/.cache/
 .vim/.netrwhist
 .vim/repos/
+Brewfile.lock.json
