@@ -10,3 +10,8 @@ git clone git@github.com:watahari/dotfiles.git
 cd dotfiles
 bash setup.sh
 ```
+
+## memo
+```
+brew bundle dump --force --describe
+```
