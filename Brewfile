@@ -21,6 +21,8 @@ brew "thefuck"
 brew "tree"
 # Internet file retriever
 brew "wget"
+# Additional completion definitions for zsh
+brew "zsh-completions"
 # Password manager that keeps all passwords secure behind one password
 cask "1password"
 # Multi-track audio editor and recorder
