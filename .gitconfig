@@ -1,5 +1,12 @@
 [user]
 	name = watahari
 	email = 4580778+watahari@users.noreply.github.com
+	signingkey = ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQCvxBcYYEeOv+tjFI0t5NacRx36ruJQ9VXbcWT+JobkzVb7xeYB868eatjRfdFXG5TLW7yeDwuC1NTeMzBiCBcDh+gdnMnPGb1BsSCy1weBcLqiBba77REP+aA9yfdejWxSRe+H+xj0ssCPAm2KfdqXdbv7f/PoT8We6IjVLEKWYxg58b6W7ap8hWTsrKkNGiZlH4uT6va1CoSaNkuLBvG5KI1b3hAlWVPzFDPo018mHCjMNT580NNv5awNB5hIV0ssW/HA5MKv5y6n9CItVFDcZGfP7nRXxUW+aKZeBMNpACkdaBd5E+GunVJYUQy5vGI3jBCJk6M/i3dWktX65yReO2n/bH97TJL8kVYJdCHKsJkUCXsevKSclnH8hO0bkSkbsTrKKV+Zu9I112UBVDfzbv90CDoO2RlmYcp1Iov6oiNxTDHe1mzQDKnNb2kq6qXC7zueGAlR3Ci/1cDffomaqN9s+NTzu5dot/DDk4ye+/STchNlBhvqUWqGPwW40p3UxXg9musQabzjZoy6dgfK304eJBC2z6BY6jcK7v86NxJLjgI9isQ2BEho9IQcF68ZUWyVGGo1gdTygk5tNia+nxcclWl0kAtZXF+1XgryOWbr86D8Zs+fW3c3h22KG/W3ESVg7X9kofgnmaGTdhUgwnML+2gMPTpfpBDR0agGIQ==
 [init]
 	defaultBranch = main
+[gpg]
+	format = ssh
+[gpg "ssh"]
+	program = "/Applications/1Password.app/Contents/MacOS/op-ssh-sign"
+[commit]
+	gpgsign = true

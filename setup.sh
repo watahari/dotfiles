@@ -3,7 +3,7 @@
 read -sp "Password: " PWD
 echo
 
-DOT_FILES=( .vimrc .vim .zshrc .zprofile Brewfile Brewfile.lock.json .gitconfig)
+DOT_FILES=( .vimrc .vim .ssh .zshrc .zprofile Brewfile Brewfile.lock.json .gitconfig)
 
 for file in ${DOT_FILES[@]}
 do
