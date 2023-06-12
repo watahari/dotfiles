@@ -37,6 +37,8 @@ cask "docker"
 cask "iterm2"
 # End-to-end encryption software
 cask "keybase"
+# Meet, chat, call, and collaborate in just one place
+cask "microsoft-teams"
 # Open-source software for live streaming and screen recording
 cask "obs"
 # Open-source code editor
