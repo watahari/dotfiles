@@ -44,7 +44,7 @@ syntax on "syntax
 
 "" file
 autocmd FileType html,xhtml,css,javascript,yaml,ruby,coffee setlocal ts=2 sts=2 sw=2
-autocmd BufNewFile,BufRead *.js setlocal ft=javascript
+autocmd BufNewFile,BufRead *.js,*.tsx setlocal ft=javascript
 autocmd BufNewFile,BufRead *.py setlocal ft=python
 autocmd BufNewFile,BufRead *.rb setlocal ft=ruby
 autocmd BufNewFile,BufRead *.erb setlocal ft=ruby
