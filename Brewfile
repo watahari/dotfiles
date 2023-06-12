@@ -39,6 +39,8 @@ cask "iterm2"
 cask "keybase"
 # Open-source software for live streaming and screen recording
 cask "obs"
+# Open-source code editor
+cask "visual-studio-code"
 # Video communication and virtual meeting platform
 cask "zoom"
 mas "GarageBand", id: 682658836
@@ -50,3 +52,7 @@ mas "Pages", id: 409201541
 mas "Twitter", id: 1482454543
 mas "Xcode", id: 497799835
 mas "デジタル時計", id: 1287009111
+vscode "ecmel.vscode-html-css"
+vscode "foxundermoon.shell-format"
+vscode "GitHub.vscode-pull-request-github"
+vscode "MS-CEINTL.vscode-language-pack-ja"
