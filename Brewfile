@@ -23,6 +23,8 @@ brew "wget"
 brew "zsh-completions"
 # Password manager that keeps all passwords secure behind one password
 cask "1password"
+# Application launcher and productivity software
+cask "alfred"
 # Multi-track audio editor and recorder
 cask "audacity"
 # Plain-text editor for web pages, program source codes and more
@@ -31,6 +33,8 @@ cask "coteditor"
 cask "discord"
 # App to build and share containerized applications and microservices
 cask "docker"
+# Japanese input software
+cask "google-japanese-ime"
 # Terminal emulator as alternative to Apple's Terminal app
 cask "iterm2"
 # End-to-end encryption software
