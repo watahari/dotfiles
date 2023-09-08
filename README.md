@@ -11,6 +11,11 @@ cd dotfiles
 bash setup.sh
 ```
 
+## メモ: 手動インストールリスト
+```
+GoPro Webcam
+```
+
 ## memo
 ```
 brew bundle dump --force --describe
