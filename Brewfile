@@ -45,6 +45,8 @@ cask "messenger"
 cask "microsoft-teams"
 # Open-source software for live streaming and screen recording
 cask "obs"
+# Additional features and controls for Shure MV7 and MV88+ microphones
+cask "shureplus-motiv"
 # Open-source code editor
 cask "visual-studio-code"
 # Video communication and virtual meeting platform
