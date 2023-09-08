@@ -1,6 +1,4 @@
 tap "homebrew/bundle"
-tap "homebrew/cask"
-tap "homebrew/core"
 # All in one for **env
 brew "anyenv"
 # Isolated development environments using Docker
@@ -37,6 +35,8 @@ cask "docker"
 cask "iterm2"
 # End-to-end encryption software
 cask "keybase"
+# Native desktop app for Messenger (formerly Facebook Messenger)
+cask "messenger"
 # Meet, chat, call, and collaborate in just one place
 cask "microsoft-teams"
 # Open-source software for live streaming and screen recording
