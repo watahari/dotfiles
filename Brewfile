@@ -33,6 +33,8 @@ cask "coteditor"
 cask "discord"
 # App to build and share containerized applications and microservices
 cask "docker"
+# Web browser
+cask "google-chrome"
 # Japanese input software
 cask "google-japanese-ime"
 # Terminal emulator as alternative to Apple's Terminal app
