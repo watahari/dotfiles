@@ -1,10 +1,17 @@
-tap "homebrew/bundle"
 # All in one for **env
 brew "anyenv"
+# GNU File, Shell, and Text utilities
+brew "coreutils"
 # Isolated development environments using Docker
 brew "docker-compose"
+# GNU awk utility
+brew "gawk"
 # Prevents you from committing sensitive information to a git repo
 brew "git-secrets"
+# GNU implementation of the famous stream editor
+brew "gnu-sed"
+# Open source programming language to build simple/reliable/efficient software
+brew "go"
 # Lightweight and flexible command-line JSON processor
 brew "jq"
 # Mac App Store command-line interface
@@ -12,13 +19,13 @@ brew "mas"
 # Network Kanji code conversion Filter (NKF)
 brew "nkf"
 # Interpreted, interactive, object-oriented programming language
-brew "python@3.10", link: false
-# Programmatically correct mistyped console commands
-brew "thefuck"
+brew "python@3.10"
 # Display directories as trees (with optional color/HTML output)
 brew "tree"
 # Internet file retriever
 brew "wget"
+# Process YAML, JSON, XML, CSV and properties documents from the CLI
+brew "yq"
 # Additional completion definitions for zsh
 brew "zsh-completions"
 # Password manager that keeps all passwords secure behind one password
@@ -31,8 +38,8 @@ cask "audacity"
 cask "coteditor"
 # Voice and text chat software
 cask "discord"
-# App to build and share containerized applications and microservices
-cask "docker"
+# App to build and share containerised applications and microservices
+cask "docker-desktop"
 # Web browser
 cask "google-chrome"
 # Japanese input software
@@ -51,6 +58,8 @@ cask "obs"
 cask "shureplus-motiv"
 # Open-source code editor
 cask "visual-studio-code"
+# Network protocol analyzer
+cask "wireshark-app"
 # Video communication and virtual meeting platform
 cask "zoom"
 mas "GarageBand", id: 682658836
@@ -61,8 +70,12 @@ mas "Numbers", id: 409203825
 mas "Pages", id: 409201541
 mas "Twitter", id: 1482454543
 mas "Xcode", id: 497799835
-mas "デジタル時計", id: 1287009111
+mas "デジタル時計", id: 1287009111
+vscode "bierner.markdown-mermaid"
 vscode "ecmel.vscode-html-css"
 vscode "foxundermoon.shell-format"
-vscode "GitHub.vscode-pull-request-github"
-vscode "MS-CEINTL.vscode-language-pack-ja"
+vscode "github.vscode-pull-request-github"
+vscode "ms-azuretools.vscode-containers"
+vscode "ms-azuretools.vscode-docker"
+vscode "ms-ceintl.vscode-language-pack-ja"
+vscode "ms-vscode-remote.remote-containers"
