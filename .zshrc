@@ -4,7 +4,6 @@ darwin*)
   alias ll="ls -lG"
   alias la="ls -laG"
   export PATH="$HOME/.anyenv/bin:$PATH"
-  eval $(thefuck --alias)
   ;;
 linux*)
   alias ls='ls --color'
